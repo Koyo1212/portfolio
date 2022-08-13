@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+body {
+  background-color: black;
+  color: #fff;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/img01.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.header-box {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header-box__logo {
+  width: 19vw;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5%;
+  font-size: 250%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header-box__nav__list {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  margin-left: 64%;
+  width: 10vw;
+}
+
+.header-box__nav__list li {
+  margin: 0 8%;
+}
+
+.header-box__nav__list a {
+  font-size: 150%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-box__nav__list a:hover {
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.txt-center p {
+  text-align: center;
+  margin-top: 9%;
+  margin: 9% 5% 0;
+  font-size: 260%;
+}
+
+.scrool {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main {
+  width: 100vw;
+
+}
+
+.section1 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main__about__ttl {
+  width: 100vw;
+  height: 14vh;
+  text-align: center;
+  background: linear-gradient(rgb(182, 182, 182), rgb(109, 109, 109));
+  box-shadow: 0 18px 5px rgba(49, 49, 49, 0.89);
+}
+
+.main__about__ttl h1 {
+  font-size: 300%;
+  padding: 2.8% 0;
+}
+
+.main__about__ttl img {
+  width: 100vw;
+  height: 19vh;
+}
+
+.main-box {
+width: 100vw;  
+}
+
+.main-box__image img {
+width: 30vw;
+background-color: #fff;
+float: left;
+margin-left: 10%;
+margin-right: 2%;
+}
+
+.main-box__image__txt {
+margin: 5% 10% 10% 0;
+font-size: 150%;
+text-align: center;
+line-height: 1.5;
+}
+
+.main-box__image__txt p {
+float: right;
+padding: 1% 1%;
+border-bottom: solid #fff 1px;
+}
+
+.section2{
+  text-align: center;
+  width: 100vw;
+  height:100vh;
+}
+
+.main__skill__ttl {
+  margin:0 auto;
+  width: 30vw;
+  height: 14vh;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.753);
+  border-radius: 50%;
+  box-shadow: 0 10px 4px rgba(49, 49, 49, 0.89);
+}
+
+.main__skill__ttl h1 {
+  font-size: 300%;
+padding: 10% 0;
+}
+
+.main__skill__list{
+  text-align: center;
+}
+
+.main__skill__list__image-html{
+  margin-top: 8%;
+  margin-right: 18%;
+}
+
+.main__skill__list__image-css {
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+.main__skill__list__image-js {
+  margin-right: 15%;
+}
+
+.main__skill__list__image-git {
+  margin-top: 5%;
+  margin-left: 16%;
+}
+
+.main__skill__list__image-figma {
+  margin-top: 8%;
+  margin-right: 11%;
+}
+
+.section3{
+  width: 100vw;
+ height: 100%;
+} 
+
+.main__work__ttl {
+  margin: 0 auto;
+  width: 30vw;
+  margin-top: 10%;
+  height: 14vh;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.753);
+  border-radius: 50%;
+  box-shadow: 0 10px 4px rgba(49, 49, 49, 0.89);
+}
+
+.main__work__ttl h1 {
+  font-size: 300%;
+  padding: 10% 0;
+}
+
+.section3 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.section3 ul li {
+  margin: 80px 80px 0;
+}
+
+.section3 ul li a:hover {
+  opacity: 0.8;
+  transition: 0.7s;
+}
+
+.section4{
+  width: 100vw;
+ height: 100vh;
+}
+
+.main__contact__ttl {
+  margin: 10% auto 10% auto;
+
+   width: 30vw;
+  height: 14vh;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.753);
+  border-radius: 50%;
+  box-shadow: 0 10px 4px rgba(49, 49, 49, 0.89);
+}
+
+.main__contact__ttl h1 {
+  font-size: 300%;
+  padding: 10% 0;
+}
+
+.contact-form {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.lavel {
+  float: left;
+  width: 300px;
+}
+
+.inputs {
+  padding: 5px 3px;
+  font-size: 25px;
+  width: 500px;
+}
+
+.contact h1 {
+  margin-bottom: 145px;
+}
+
+.button-box {
+  text-align: center;
+  margin-left: 700px;
+  margin-bottom: 100px;
+}
+
+.button {
+  border-top: solid red 5px;
+  padding: 15px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(194, 194, 194);
+  transition: 0.5s;
+}
