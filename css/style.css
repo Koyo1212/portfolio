@@ -103,32 +103,31 @@ text-align: center;
 
 .main-box {
 width: 100vw;  
+display: flex;
+justify-content:space-around;
+align-items: center;
+margin-top: 40.5vh;
+transform: translateY(-50%);
 }
 
 .main-box__image img {
 width: 30vw;
 background-color: #fff;
-float: left;
 margin-left: 10%;
-margin-right: 2%;
-
+margin-right: 5%;
 }
 
 .main-box__image__txt {
-margin: 4% 10% 10% 0;
 font-size: 150%;
-text-align: center;
 line-height: 1.5;
+margin-right: 10%;
+margin-left: 5%;
 }
 
 .main-box__image__txt p {
-float: right;
 padding: 1% 1%;
 border-bottom: solid #fff 1px;
-align-items: center;
-
 }
-
 
 .section2{
   text-align: center;
