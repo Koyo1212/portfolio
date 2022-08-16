@@ -371,7 +371,7 @@ width: min-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10% auto 10% auto;
+  margin: 10% auto 8% auto;
   width: 30vw;
   height: 14vh;
   text-align: center;
@@ -382,7 +382,10 @@ width: min-content;
 
 .main__contact__ttl h1 {
   font-size: 300%;
-  margin: 10% 0;
+}
+
+.contacy-box{
+  height: 80vh;
 }
 
 .contact-form {
@@ -410,7 +413,7 @@ width: min-content;
 .button-box {
   text-align: center;
   margin-left: 700px;
-  margin-bottom: 100px;
+  margin-bottom: 3%;
 }
 
 .button {
@@ -420,6 +423,7 @@ width: min-content;
   font-weight: bold;
   background-color: white;
   border-radius: 5px;
+
 }
 
 .button:hover {
@@ -428,9 +432,12 @@ width: min-content;
   transition: 0.5s;
 }
 
-.footer {
+.footer-wrapper {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+align-items: center;
+  height: 8vh;
   background-color: #444;
-  padding: 3%;
-  text-align: center;
   color: #fff;
 }
